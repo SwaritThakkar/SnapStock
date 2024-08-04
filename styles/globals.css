@@ -1,0 +1,46 @@
+/* styles/globals.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif; /* You can customize the font here */
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+}
+
+/* Add some padding to the body */
+body {
+  padding: 20px;
+}
+
+/* Style for buttons */
+button {
+  cursor: pointer;
+}
+
+/* Add styles for form inputs */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Add some spacing for the card components */
+.MuiCard-root {
+  margin-bottom: 20px;
+}
+
+/* Style for headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0;
+}
