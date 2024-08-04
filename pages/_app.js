@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import Auth from "../components/Auth";
 import { AuthProvider, useAuth } from "../components/AuthProvider"; // Import AuthProvider
-import theme from "./src/theme"; // Adjusted path to your theme
+import theme from "../components/src/theme"; // Adjusted path to your theme
 
 function MyApp({ Component, pageProps }) {
   return (
