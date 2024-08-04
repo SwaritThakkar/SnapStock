@@ -20,5 +20,6 @@ const withAuth = (Component) => {
     return <Component {...props} />;
   };
 };
+withAuth.displayName = 'withAuth';
 
 export default withAuth;
